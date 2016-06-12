@@ -31,8 +31,8 @@ body {
   font-family: "Segoe UI", sans-serif;
 
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-end;
+  align-items: flex-end;
   user-select: none;
 }
 
@@ -42,16 +42,17 @@ main {
   box-shadow: 0 0 0 1px #c5c5c5;
   background-color: #fff;
   cursor: pointer;
+    margin-bottom: 15px;
+    margin-right: 210px
 }
 
 main > p {
   position: relative;
-  left: 1.1em;
+  left: 6px;
   display: inline;
 
   font-size: 0.8em;
   font-weight: 300;
-  color: #0078D7;
 }
 
 section {
@@ -75,7 +76,7 @@ section {
 .times {
   position: relative;
   top: -0.7em;
-  right: -86px;
+  right: -83px;
   color: rgb(150, 199, 238);
   font-weight: 700;
   font-size: 1.2em;
@@ -87,6 +88,7 @@ section {
   display: inline;
   margin-left: 0.45em;
   vertical-align: text-top;
+  line-height: 1em;
 }
 
 #recommends {
@@ -94,19 +96,20 @@ section {
 
   font-weight: 200;
   font-size: 1.1em;
-  line-height: 0.55;
+  /*line-height: 0.55;*/
 }
 
 #recommends img {
   position: relative;
-  top: 2em;
+  top: 2.3em;
   left: 0.5em;
 }
 
 #recommends p {
   position: relative;
-  left: 3.6em;
-  bottom: 1.1em;
+  left: 3.7em;
+  bottom: 1.5em;
+    
 }
 
 .triangle {
@@ -116,7 +119,7 @@ section {
 }
 
 .triangle.bg {
-  bottom: -3.15em;
+  bottom: -33px;
   right: 0.6em;
   width: 0;
   height: 0;
@@ -126,7 +129,7 @@ section {
 }
 
 .triangle.fg {
-  bottom: -3.12em;
+  bottom: -33px;
   right: -0.21em;
   z-index: 1;
 
@@ -135,4 +138,9 @@ section {
   border-style: solid;
   border-width: 0 0.8em 0.8em 0;
   border-color: transparent #fff transparent transparent;
+}
+
+a {
+    text-decoration: none;
+      color: #0078D7;
 }
