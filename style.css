@@ -49,7 +49,7 @@ main > p {
   position: relative;
   left: 6px;
   display: inline;
-
+    color: #aaa;
   font-size: 0.8em;
   font-weight: 300;
 }
@@ -140,6 +140,10 @@ section {
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
+color: #aaa;
+}
+
+p > span {
       color: #0078D7;
 }
