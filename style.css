@@ -34,16 +34,14 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  user-select: none;
 }
 
 main {
   width: 330px;
-  height: 220px;
   box-shadow: 0 0 0 1px #c5c5c5;
   background-color: #fff;
-    margin-bottom: 15px;
-    margin-right: 210px
+    margin-bottom: 20px;
+    margin-right: 180px;
 }
 
 main > p {
@@ -56,11 +54,8 @@ main > p {
 }
 
 section {
-  width: 320px;
-  height: 160px;
-  margin: 5px auto;
-
-  background-color: rgb(0, 120, 214);
+  margin: 0;
+  background-color: #0078d6;
   color: #fff;
 }
 
@@ -71,17 +66,6 @@ section {
   display: inline;
 }
 
-.fa-windows { font-size: 1.4em; }
-
-.times {
-  position: relative;
-  top: -0.7em;
-  right: -83px;
-  color: rgb(150, 199, 238);
-  font-weight: 700;
-  font-size: 1.2em;
-  font-style: normal;
-}
 
 #intro > p {
   font-size: 0.9em;
@@ -114,13 +98,14 @@ section {
 
 .triangle {
   float: right;
-  position: relative;
+  position: absolute;
   display: inline-block;
+    right: 200px;
 }
 
-.triangle.bg {
-  bottom: -33px;
-  right: 0.6em;
+.triangle#bg {
+     bottom: 6px;
+  
   width: 0;
   height: 0;
   border-style: solid;
@@ -128,9 +113,8 @@ section {
   border-color: transparent #c5c5c5 transparent transparent;
 }
 
-.triangle.fg {
-  bottom: -33px;
-  right: -0.21em;
+.triangle#fg {
+  bottom: 8px;
   z-index: 1;
 
   width: 0;
@@ -145,6 +129,9 @@ a {
 color: #aaa;
 }
 
-p > span {
+p  span {
       color: #0078D7;
+}
+#toastBottom {
+    padding: 18px;
 }
