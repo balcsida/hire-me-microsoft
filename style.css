@@ -27,7 +27,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-background-image: url(img/img0_tiny.jpg);
+background-image: url(img/img0_mini.jpg);
 background-position: center;
   font-family: "Segoe UI", sans-serif;
 
@@ -91,8 +91,8 @@ section {
 
 #recommends p {
   position: relative;
-  left: 3.7em;
-  bottom: 1.5em;
+  left: 3.9em;
+  bottom: 1.7em;
     
 }
 
@@ -133,5 +133,5 @@ p  span {
       color: #0078D7;
 }
 #toastBottom {
-    padding: 18px;
+
 }
